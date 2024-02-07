@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 7px;
     }
 .nav_links {
 list-style: none;
@@ -23,8 +22,12 @@ display: flex;
 justify-content: space-between;
 }
 .nav_links li a{
-transition: all 0.3s ease 0s;
 
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.2, 0.98) 0s;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
 }
 .nav_links li a:hover{
 color:white;
@@ -107,8 +110,8 @@ display: block;
 }
 .a8{
 font-size: 70px;
-margin-left: 350px;
-margin-bottom: 500px;
+margin-left: 510px;
+margin-bottom: 136px;
 color: white;
 }
 .container{
